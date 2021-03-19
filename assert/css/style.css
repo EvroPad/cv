@@ -1,0 +1,94 @@
+/* Small Devices */
+
+@media only screen and (max-width: 768px) {
+  /* name */
+  .name span {
+    padding: 1rem;
+  }
+  section.section {
+    padding: 1rem;
+  }
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 769px) {
+  /* name */
+  .name span {
+    padding: 1rem 3rem;
+  }
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1088px) {
+  .bg-main {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1087px) {
+  .bg-main {
+    padding: 1rem;
+  }
+}
+
+/* wrapper */
+
+.bg-main {
+  background: url("../images/background.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.block-resume {
+  max-width: 1100px;
+}
+
+/* section */
+
+section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* name */
+
+.name span {
+  border: 0.1rem solid #ccc;
+  letter-spacing: 0.2rem;
+}
+
+/* work */
+
+.work {
+  letter-spacing: 0.08rem;
+}
+
+/* avatar */
+
+.avatar {
+  margin: auto;
+}
+
+.avatar>img {
+  border-radius: 50%;
+}
+
+/* helpers*/
+
+main .m-t-2 {
+  margin-top: 2rem;
+}
+
+main .m-b-1 {
+  margin-bottom: 1rem;
+}
+
+main .m-b-2 {
+  margin-bottom: 2rem;
+}
+
+.is-spacing-1 {
+  letter-spacing: 0.1rem;
+}
